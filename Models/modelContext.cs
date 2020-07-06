@@ -36,7 +36,7 @@ namespace TestGraph.Models
                     .HasColumnName("ProductID")
                     .ValueGeneratedNever();
 
-                entity.Property(e => e.Price).HasColumnType("money");
+                entity.Property(e => e.Price).HasColumnType("int");
 
                 entity.Property(e => e.ProductDescription).HasColumnType("text");
 
